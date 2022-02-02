@@ -20,7 +20,8 @@
             <a class="btn btn-primary">
                 Signup now
                 <script>
-                    analytics.track('Signed Up');
+                    analytics.track('Signed Up', {
+                    name: {{user.id}}});
                 </script>
             </a>
         </div>
