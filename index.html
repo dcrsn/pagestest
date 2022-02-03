@@ -17,10 +17,10 @@
         <div class="text-center">
             <h1>Hello World</h1>
             <p> Just a sample page with sample text and a sample CTA. Click and nothing will happen.</p>
-            <a class="btn btn-primary">
+            <a class="btn btn-primary" id="button">
                 Signup now
                 <script>
-                    analytics.trackClick('Signed Up');
+                    analytics.trackForm(button, 'Signed Up');
                 </script>
             </a>
         </div>
